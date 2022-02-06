@@ -1,0 +1,33 @@
+.friend {
+  width: 200px;
+  align-items: center;
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.friend:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.marker {
+  margin-right: 5px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.markerGreen {
+  background-color: green;
+}
+
+.markerRed {
+  background-color: red;
+}
